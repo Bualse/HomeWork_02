@@ -45,6 +45,16 @@ public class Main {
         var differenceWeight2 = twoFightWeiht % oneFightWeiht;
         System.out.println("Разница между весами бойцов " + differenceWeight2 + " кг.");
 
+// Задание 8
+        var totalWorkTime = 640;
+        var workEachStaffer = 8;
+        var totalStaffersInCompany = totalWorkTime / workEachStaffer;
+        System.out.println("Всего работников в компании - "  + totalStaffersInCompany + " человек.");
+        var totalStaffersInCompany2 = totalStaffersInCompany + 94;
+        var totalWorkTime2 = totalStaffersInCompany2 * 8;
+        System.out.println("Если в компании работает " + totalStaffersInCompany2 + " человек, то всего " + totalWorkTime2 + " часов работы может быть поделено между сотрудниками");
+
+
 
 
 
