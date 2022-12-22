@@ -30,13 +30,22 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+
 // Задание 6
         var oneFightWeiht = 78.2;
         var twoFightWeiht = 82.7;
         var totalWeight = oneFightWeiht + twoFightWeiht;
         System.out.println("Общий вес двух бойцов " + totalWeight + " кг.");
-        var differenceWeight = twoFightWeiht - oneFightWeiht;
+        var differenceWeight = twoFightWeiht - oneFightWeiht; // первый способ по Заданию 7 такой же как и этот
         System.out.println("Разница между весами бойцов " + differenceWeight + " кг.");
+
+// Задание 7
+        var differenceWeight1 = twoFightWeiht - oneFightWeiht;
+        System.out.println("Разница между весами бойцов " + differenceWeight1 + " кг.");
+        var differenceWeight2 = twoFightWeiht % oneFightWeiht;
+        System.out.println("Разница между весами бойцов " + differenceWeight2 + " кг.");
+
+
 
 
     }
