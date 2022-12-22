@@ -3,11 +3,11 @@ public class Main {
         double dog = 8;
         var cat = 3.6;
         var paper = 763789;
-// Задание 1
+// Задание 2
         dog = dog + 4;
         cat = cat + 4;
         paper = paper + 4;
-// Задание 2
+// Задание 3
         dog = dog - 3.5;
         cat = cat - 1.6;
         paper = paper - 7639;
