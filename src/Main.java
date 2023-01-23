@@ -95,7 +95,7 @@ public class Main {
         var totalStaffersInCompany = totalWorkTime / workEachStaffer;
         System.out.println("Всего работников в компании - " + totalStaffersInCompany + " человек.");
 
-        var totalStaffersInCompany2 = totalStaffersInCompany + 94; // если а компании работает на 94 чел больше
+        var totalStaffersInCompany2 = totalStaffersInCompany + 94; // если в компании работает на 94 чел больше
         var totalWorkTime2 = totalStaffersInCompany2 * 8;
         System.out.println("Если в компании работает " + totalStaffersInCompany2 + " человека, то всего " + totalWorkTime2 + " часа работы может быть поделено между сотрудниками");
 
